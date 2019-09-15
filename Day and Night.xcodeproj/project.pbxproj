@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA191759232DD95E003FC2D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA191758232DD95E003FC2D9 /* AppDelegate.m */; };
+		EA19175C232DD95E003FC2D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA19175B232DD95E003FC2D9 /* ViewController.m */; };
+		EA19175F232DD95E003FC2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19175D232DD95E003FC2D9 /* Main.storyboard */; };
+		EA191761232DD960003FC2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA191760232DD960003FC2D9 /* Assets.xcassets */; };
+		EA191764232DD960003FC2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA191762232DD960003FC2D9 /* LaunchScreen.storyboard */; };
+		EA191767232DD960003FC2D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA191766232DD960003FC2D9 /* main.m */; };
+		EA191771232DD960003FC2D9 /* Day_and_NightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA191770232DD960003FC2D9 /* Day_and_NightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA19176D232DD960003FC2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA19174C232DD95E003FC2D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA191753232DD95E003FC2D9;
+			remoteInfo = "Day and Night";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA191754232DD95E003FC2D9 /* Day and Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day and Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA191757232DD95E003FC2D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA191758232DD95E003FC2D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA19175A232DD95E003FC2D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA19175B232DD95E003FC2D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA19175E232DD95E003FC2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA191760232DD960003FC2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA191763232DD960003FC2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA191765232DD960003FC2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA191766232DD960003FC2D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA19176C232DD960003FC2D9 /* Day and NightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day and NightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA191770232DD960003FC2D9 /* Day_and_NightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_and_NightTests.m; sourceTree = "<group>"; };
+		EA191772232DD960003FC2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA191751232DD95E003FC2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA191769232DD960003FC2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA19174B232DD95E003FC2D9 = {
+			isa = PBXGroup;
+			children = (
+				EA191756232DD95E003FC2D9 /* Day and Night */,
+				EA19176F232DD960003FC2D9 /* Day and NightTests */,
+				EA191755232DD95E003FC2D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA191755232DD95E003FC2D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA191754232DD95E003FC2D9 /* Day and Night.app */,
+				EA19176C232DD960003FC2D9 /* Day and NightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA191756232DD95E003FC2D9 /* Day and Night */ = {
+			isa = PBXGroup;
+			children = (
+				EA191757232DD95E003FC2D9 /* AppDelegate.h */,
+				EA191758232DD95E003FC2D9 /* AppDelegate.m */,
+				EA19175A232DD95E003FC2D9 /* ViewController.h */,
+				EA19175B232DD95E003FC2D9 /* ViewController.m */,
+				EA19175D232DD95E003FC2D9 /* Main.storyboard */,
+				EA191760232DD960003FC2D9 /* Assets.xcassets */,
+				EA191762232DD960003FC2D9 /* LaunchScreen.storyboard */,
+				EA191765232DD960003FC2D9 /* Info.plist */,
+				EA191766232DD960003FC2D9 /* main.m */,
+			);
+			path = "Day and Night";
+			sourceTree = "<group>";
+		};
+		EA19176F232DD960003FC2D9 /* Day and NightTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA191770232DD960003FC2D9 /* Day_and_NightTests.m */,
+				EA191772232DD960003FC2D9 /* Info.plist */,
+			);
+			path = "Day and NightTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA191753232DD95E003FC2D9 /* Day and Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA191775232DD960003FC2D9 /* Build configuration list for PBXNativeTarget "Day and Night" */;
+			buildPhases = (
+				EA191750232DD95E003FC2D9 /* Sources */,
+				EA191751232DD95E003FC2D9 /* Frameworks */,
+				EA191752232DD95E003FC2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day and Night";
+			productName = "Day and Night";
+			productReference = EA191754232DD95E003FC2D9 /* Day and Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA19176B232DD960003FC2D9 /* Day and NightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA191778232DD960003FC2D9 /* Build configuration list for PBXNativeTarget "Day and NightTests" */;
+			buildPhases = (
+				EA191768232DD960003FC2D9 /* Sources */,
+				EA191769232DD960003FC2D9 /* Frameworks */,
+				EA19176A232DD960003FC2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA19176E232DD960003FC2D9 /* PBXTargetDependency */,
+			);
+			name = "Day and NightTests";
+			productName = "Day and NightTests";
+			productReference = EA19176C232DD960003FC2D9 /* Day and NightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA19174C232DD95E003FC2D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nicholas Cooke";
+				TargetAttributes = {
+					EA191753232DD95E003FC2D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EA19176B232DD960003FC2D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EA191753232DD95E003FC2D9;
+					};
+				};
+			};
+			buildConfigurationList = EA19174F232DD95E003FC2D9 /* Build configuration list for PBXProject "Day and Night" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA19174B232DD95E003FC2D9;
+			productRefGroup = EA191755232DD95E003FC2D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA191753232DD95E003FC2D9 /* Day and Night */,
+				EA19176B232DD960003FC2D9 /* Day and NightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA191752232DD95E003FC2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA191764232DD960003FC2D9 /* LaunchScreen.storyboard in Resources */,
+				EA191761232DD960003FC2D9 /* Assets.xcassets in Resources */,
+				EA19175F232DD95E003FC2D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA19176A232DD960003FC2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA191750232DD95E003FC2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA19175C232DD95E003FC2D9 /* ViewController.m in Sources */,
+				EA191767232DD960003FC2D9 /* main.m in Sources */,
+				EA191759232DD95E003FC2D9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA191768232DD960003FC2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA191771232DD960003FC2D9 /* Day_and_NightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA19176E232DD960003FC2D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA191753232DD95E003FC2D9 /* Day and Night */;
+			targetProxy = EA19176D232DD960003FC2D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA19175D232DD95E003FC2D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA19175E232DD95E003FC2D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA191762232DD960003FC2D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA191763232DD960003FC2D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA191773232DD960003FC2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA191774232DD960003FC2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA191776232DD960003FC2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2A6VGGX23;
+				INFOPLIST_FILE = "Day and Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncooke.Day-and-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA191777232DD960003FC2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2A6VGGX23;
+				INFOPLIST_FILE = "Day and Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncooke.Day-and-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA191779232DD960003FC2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2A6VGGX23;
+				INFOPLIST_FILE = "Day and NightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncooke.Day-and-NightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day and Night.app/Day and Night";
+			};
+			name = Debug;
+		};
+		EA19177A232DD960003FC2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K2A6VGGX23;
+				INFOPLIST_FILE = "Day and NightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ncooke.Day-and-NightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day and Night.app/Day and Night";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA19174F232DD95E003FC2D9 /* Build configuration list for PBXProject "Day and Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA191773232DD960003FC2D9 /* Debug */,
+				EA191774232DD960003FC2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA191775232DD960003FC2D9 /* Build configuration list for PBXNativeTarget "Day and Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA191776232DD960003FC2D9 /* Debug */,
+				EA191777232DD960003FC2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA191778232DD960003FC2D9 /* Build configuration list for PBXNativeTarget "Day and NightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA191779232DD960003FC2D9 /* Debug */,
+				EA19177A232DD960003FC2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA19174C232DD95E003FC2D9 /* Project object */;
+}
