@@ -14,6 +14,7 @@
 		EA191764232DD960003FC2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA191762232DD960003FC2D9 /* LaunchScreen.storyboard */; };
 		EA191767232DD960003FC2D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA191766232DD960003FC2D9 /* main.m */; };
 		EA191771232DD960003FC2D9 /* Day_and_NightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA191770232DD960003FC2D9 /* Day_and_NightTests.m */; };
+		EA19177D232DF488003FC2D9 /* ChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA19177C232DF488003FC2D9 /* ChooseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		EA19176C232DD960003FC2D9 /* Day and NightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day and NightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA191770232DD960003FC2D9 /* Day_and_NightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_and_NightTests.m; sourceTree = "<group>"; };
 		EA191772232DD960003FC2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA19177B232DF488003FC2D9 /* ChooseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseViewController.h; sourceTree = "<group>"; };
+		EA19177C232DF488003FC2D9 /* ChooseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseViewController.m; sourceTree = "<group>"; };
+		EA19177E232E03CF003FC2D9 /* DayNightSelectDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayNightSelectDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				EA191757232DD95E003FC2D9 /* AppDelegate.h */,
+				EA19177E232E03CF003FC2D9 /* DayNightSelectDelegate.h */,
 				EA191758232DD95E003FC2D9 /* AppDelegate.m */,
 				EA19175A232DD95E003FC2D9 /* ViewController.h */,
 				EA19175B232DD95E003FC2D9 /* ViewController.m */,
+				EA19177B232DF488003FC2D9 /* ChooseViewController.h */,
+				EA19177C232DF488003FC2D9 /* ChooseViewController.m */,
 				EA19175D232DD95E003FC2D9 /* Main.storyboard */,
 				EA191760232DD960003FC2D9 /* Assets.xcassets */,
 				EA191762232DD960003FC2D9 /* LaunchScreen.storyboard */,
@@ -204,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA19175C232DD95E003FC2D9 /* ViewController.m in Sources */,
+				EA19177D232DF488003FC2D9 /* ChooseViewController.m in Sources */,
 				EA191767232DD960003FC2D9 /* main.m in Sources */,
 				EA191759232DD95E003FC2D9 /* AppDelegate.m in Sources */,
 			);

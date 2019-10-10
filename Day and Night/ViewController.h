@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChooseViewController.h"
+#import "DayNightSelectDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<DayNightSelectDelegate>
 
+@property (strong, nonatomic) CAShapeLayer *circleLayer;
+@property (strong, nonatomic) UILabel *label;
+@property (strong, nonatomic) UIButton *button;
 
 @end
 
